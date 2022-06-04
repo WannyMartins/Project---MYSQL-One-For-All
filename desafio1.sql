@@ -5,7 +5,7 @@ USE SpotifyClone;
 CREATE TABLE planos(
     id INT PRIMARY KEY AUTO_INCREMENT,
     nome VARCHAR(100) NOT NULL,
-    valor FLOAT(2) NOT NULL
+    valor DECIMAL(5,2) NOT NULL
 );
 
 INSERT INTO planos(nome, valor)
