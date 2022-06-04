@@ -21,14 +21,14 @@ CREATE TABLE artistas(
     sobrenome VARCHAR(100)
 );
 
-INSERT INTO artistas(nome, sobrenome)
+INSERT INTO artistas(nome)
 	VALUES
-    ('Walter', 'Phoenix'), 
-    ('Peter', 'Strong'),	
-    ('Lance', 'Day'),		
-    ('Freedie', 'Shannon'),
-    ('Tyler', 'Isle'),		
-    ('Fog', NULL);			
+    ('Walter Phoenix'), 
+    ('Peter Strong'),	
+    ('Lance Day'),		
+    ('Freedie Shannon'),
+    ('Tyler Isle'),		
+    ('Fog');			
 							
 CREATE TABLE users(
     id INT PRIMARY KEY AUTO_INCREMENT,
